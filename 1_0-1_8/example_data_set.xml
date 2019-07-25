@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<root>
+	<switches type="list">
+		<item type="dict">
+			<hostname type="str">switch_000001</hostname>
+			<serial_numbers type="dict">
+				<chassis type="str">SNXA0018AX00BA</chassis>
+			</serial_numbers>
+			<interfaces type="list">
+				<item type="dict">
+					<name type="str">ethernet0/0</name>
+					<description type="str">SW_000002_0/0</description>
+					<speed type="int">1000</speed>
+					<duplex type="str">Full</duplex>
+					<error_count type="dict">
+						<crc type="int">0</crc>
+						<frame type="int">0</frame>
+						<overrun type="int">0</overrun>
+					</error_count>
+				</item>
+				<item type="dict">
+					<name type="str">ethernet0/1</name>
+					<description type="str">SW_000002_0/1</description>
+					<speed type="int">10</speed>
+					<duplex type="str">Half</duplex>
+					<error_count type="dict">
+						<crc type="int">0</crc>
+						<frame type="int">0</frame>
+						<overrun type="int">0</overrun>
+					</error_count>
+				</item>
+			</interfaces>
+		</item>
+		<item type="dict">
+			<hostname type="str">switch_000002</hostname>
+			<serial_numbers type="dict">
+				<chassis type="str">SNXA0018AX00BC</chassis>
+			</serial_numbers>
+			<interfaces type="list">
+				<item type="dict">
+					<name type="str">ethernet0/0</name>
+					<description type="str">SW_000001_0/0</description>
+					<speed type="int">1000</speed>
+					<duplex type="str">Full</duplex>
+					<error_count type="dict">
+						<crc type="int">0</crc>
+						<frame type="int">0</frame>
+						<overrun type="int">0</overrun>
+					</error_count>
+				</item>
+				<item type="dict">
+					<name type="str">ethernet0/1</name>
+					<description type="str">SW_000001_0/1</description>
+					<speed type="int">10</speed>
+					<duplex type="str">Half</duplex>
+					<error_count type="dict">
+						<crc type="int">0</crc>
+						<frame type="int">0</frame>
+						<overrun type="int">0</overrun>
+					</error_count>
+				</item>
+			</interfaces>
+		</item>
+	</switches>
+</root>

@@ -1,0 +1,64 @@
+{
+    "switches": [
+        {
+            "hostname": "switch_000001",
+            "serial_numbers": {
+                "chassis": "SNXA0018AX00BA"
+            },
+            "interfaces": [
+                {
+                    "name": "ethernet0/0",
+                    "description": "SW_000002_0/0",
+                    "speed": 1000,
+                    "duplex": "Full",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                },
+                {
+                    "name": "ethernet0/1",
+                    "description": "SW_000002_0/1",
+                    "speed": 10,
+                    "duplex": "Half",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                }
+            ]
+        },
+        {
+            "hostname": "switch_000002",
+            "serial_numbers": {
+                "chassis": "SNXA0018AX00BC"
+            },
+            "interfaces": [
+                {
+                    "name": "ethernet0/0",
+                    "description": "SW_000001_0/0",
+                    "speed": 1000,
+                    "duplex": "Full",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                },
+                {
+                    "name": "ethernet0/1",
+                    "description": "SW_000001_0/1",
+                    "speed": 10,
+                    "duplex": "Half",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
