@@ -7,12 +7,12 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
-Look at the next xml 
+Take a look at the following xml.
 
 &lt;?xml version="1.0" ?>
-&lt;root>
-	&lt;switches type="list">
-		&lt;item type="dict">
+&lt;root&gt;
+	&lt;switches type="list"&gt;
+		&lt;item type="dict"&gt;
 			&lt;hostname type="str">switch_000001&lt;/hostname>
 			&lt;serial_numbers type="dict">
 				&lt;chassis type="str">SNXA0018AX00BA&lt;/chassis>
