@@ -7,10 +7,12 @@ I will be covering the same data using different formats.
 
 The follow image represents the common hierarchical structure of XML.  When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
 
+<hr>
 Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
+<hr>
 Take a look at the following xml. As you can see, the python data types are defined as an attribute.  Examples of these data types include: list,dictionary,string,integer,float.  Python parsers will use duct typing to define the data type(it's what python does). Xml is the oldest of the three data formats.  It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
 
 <pre>
