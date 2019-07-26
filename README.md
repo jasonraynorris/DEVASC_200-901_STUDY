@@ -8,5 +8,6 @@ I absolve myself from any liability in validating material or providing correctn
 Exam topics are located in 200-901-DEVASC.pdf.
 
 Reference: https://learningnetwork.cisco.com/community/certifications/devnet-associate/devasc/exam-topics
+Reference: https://learningnetwork.cisco.com/docs/DOC-36598
 
 
