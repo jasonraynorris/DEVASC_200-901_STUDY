@@ -5,6 +5,8 @@ I created this code in order to generate study material for the coming Cisco DEV
 
 I absolve myself from any liability in validating material or providing correctness in any way. Use this material at your own risk.
 
+My intention is to be able to run each subsection of the exam independently.  I will import each section to main.py and create a menu.
+
 Exam topics are located in 200-901-DEVASC.pdf.
 
 Reference: https://learningnetwork.cisco.com/community/certifications/devnet-associate/devasc/exam-topics
