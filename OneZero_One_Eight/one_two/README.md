@@ -9,7 +9,7 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 Take a look at the following xml. As you can see, the python data types are defined as an attribute.Examples of these data types include: list,dictionary,string,integer,float.  Without type included, python parsers will use duct typing to define the data type.
 
-<div type="textarea" style="border: 5px solid red">
+<div style="border: 5px solid red">
 <pre>
 &lt;?xml version="1.0" ?>
 &lt;root&gt;
