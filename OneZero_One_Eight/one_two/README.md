@@ -8,7 +8,7 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
 Take a look at the following xml.
-
+<pre>
 &lt;?xml version="1.0" ?>
 &lt;root&gt;
 	&lt;switches type="list"&gt;
@@ -74,6 +74,6 @@ Take a look at the following xml.
 		&lt;/item>
 	&lt;/switches>
 &lt;/root>
-
+</pre>
 
 
