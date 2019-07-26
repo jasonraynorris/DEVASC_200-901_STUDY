@@ -17,9 +17,10 @@ https://docs.python.org/3/library/xml.etree.elementtree.html
 """
 class DataStructures(object):
     def __init__(self):
-        self.xml_file_name = os.path.join(os.path.dirname(__file__), 'example_data_set.xml')
-        self.json_file_name = os.path.join(os.path.dirname(__file__), 'example_data_set.json')
-        self.yaml_file_name = os.path.join(os.path.dirname(__file__), 'example_data_set.yaml')
+        cur_path = os.path.dirname(__file__)
+        self.xml_file_name = os.path.relpath('..\\data_sets\\example_data_set.xml', cur_path)
+        self.json_file_name = os.path.relpath('..\\data_sets\\example_data_set.json', cur_path)
+        self.yaml_file_name = os.path.relpath('..\\data_sets\\example_data_set.yaml', cur_path)
         print("Objectives:\n"
               " Let's compare the same data sizes using XML,JSON and YAML data structures\n"
               "  1. Compare parsing times?\n"

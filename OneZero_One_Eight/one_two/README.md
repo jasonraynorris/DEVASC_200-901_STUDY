@@ -13,79 +13,73 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
 <hr>
-Take a look at the following xml. As you can see, the python data types are defined as an attribute.  Examples of these data types include: list,dictionary,string,integer,float.  Python parsers will use duct typing to define the data type(it's what python does). Xml is the oldest of the three data formats.  It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
+Take a look at the following xml. Xml is the oldest of the three data formats.  It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
 
 <pre>
 &lt;?xml version="1.0" ?>
-&lt;root&gt;
-	&lt;switches type="list"&gt;
-		&lt;item type="dict"&gt;
-			&lt;hostname type="str">switch_000001&lt;/hostname>
-			&lt;serial_numbers type="dict">
-				&lt;chassis type="str">SNXA0018AX00BA&lt;/chassis>
-			&lt;/serial_numbers>
-			&lt;interfaces type="list">
-				&lt;item type="dict">
-					&lt;name type="str">ethernet0/0&lt;/name>
-					&lt;description type="str">SW_000002_0/0&lt;/description>
-					&lt;speed type="int">1000&lt;/speed>
-					&lt;duplex type="str">Full&lt;/duplex>
-					&lt;error_count type="dict">
-						&lt;crc type="int">0&lt;/crc>
-						&lt;frame type="int">0&lt;/frame>
-						&lt;overrun type="int">0&lt;/overrun>
-					&lt;/error_count>
-				&lt;/item>
-				&lt;item type="dict">
-					&lt;name type="str">ethernet0/1&lt;/name>
-					&lt;description type="str">SW_000002_0/1&lt;/description>
-					&lt;speed type="int">10&lt;/speed>
-					&lt;duplex type="str">Half&lt;/duplex>
-					&lt;error_count type="dict">
-						&lt;crc type="int">0&lt;/crc>
-						&lt;frame type="int">0&lt;/frame>
-						&lt;overrun type="int">0&lt;/overrun>
-					&lt;/error_count>
-				&lt;/item>
-			&lt;/interfaces>
-		&lt;/item>
-		&lt;item type="dict">
-			&lt;hostname type="str">switch_000002&lt;/hostname>
-			&lt;serial_numbers type="dict">
-				&lt;chassis type="str">SNXA0018AX00BC&lt;/chassis>
-			&lt;/serial_numbers>
-			&lt;interfaces type="list">
-				&lt;item type="dict">
-					&lt;name type="str">ethernet0/0&lt;/name>
-					&lt;description type="str">SW_000001_0/0&lt;/description>
-					&lt;speed type="int">1000&lt;/speed>
-					&lt;duplex type="str">Full&lt;/duplex>
-					&lt;error_count type="dict">
-						&lt;crc type="int">0&lt;/crc>
-						&lt;frame type="int">0&lt;/frame>
-						&lt;overrun type="int">0&lt;/overrun>
-					&lt;/error_count>
-				&lt;/item>
-				&lt;item type="dict">
-					&lt;name type="str">ethernet0/1&lt;/name>
-					&lt;description type="str">SW_000001_0/1&lt;/description>
-					&lt;speed type="int">10&lt;/speed>
-					&lt;duplex type="str">Half&lt;/duplex>
-					&lt;error_count type="dict">
-						&lt;crc type="int">0&lt;/crc>
-						&lt;frame type="int">0&lt;/frame>
-						&lt;overrun type="int">0&lt;/overrun>
-					&lt;/error_count>
-				&lt;/item>
-			&lt;/interfaces>
-		&lt;/item>
-	&lt;/switches>
+&lt;root>
+	&lt;switch>
+		&lt;hostname>switch_000001&lt;/hostname>
+		&lt;serial_numbers>
+			&lt;chassis>SNXA0018AX00BA&lt;/chassis>
+		&lt;/serial_numbers>
+		&lt;interface>
+			&lt;name>ethernet0/0&lt;/name>
+			&lt;description>SW_000002_0/0&lt;/description>
+			&lt;speed>1000&lt;/speed>
+			&lt;duplex>Full&lt;/duplex>
+			&lt;error_count>
+				&lt;crc>0&lt;/crc>
+				&lt;frame>0&lt;/frame>
+				&lt;overrun>0&lt;/overrun>
+			&lt;/error_count>
+		&lt;/interface>
+		&lt;interface>
+			&lt;name>ethernet0/1&lt;/name>
+			&lt;description>SW_000002_0/1&lt;/description>
+			&lt;speed>10&lt;/speed>
+			&lt;duplex>Half&lt;/duplex>
+			&lt;error_count>
+				&lt;crc>0&lt;/crc>
+				&lt;frame>0&lt;/frame>
+				&lt;overrun>0&lt;/overrun>
+			&lt;/error_count>
+		&lt;/interface>
+	&lt;/switch>
+	&lt;switch>
+		&lt;hostname>switch_000002&lt;/hostname>
+		&lt;serial_numbers>
+			&lt;chassis>SNXA0018AX00BC&lt;/chassis>
+		&lt;/serial_numbers>
+		&lt;interface>
+			&lt;name>ethernet0/0&lt;/name>
+			&lt;description>SW_000001_0/0&lt;/description>
+			&lt;speed>1000&lt;/speed>
+			&lt;duplex>Full&lt;/duplex>
+			&lt;error_count>
+				&lt;crc>0&lt;/crc>
+				&lt;frame>0&lt;/frame>
+				&lt;overrun>0&lt;/overrun>
+			&lt;/error_count>
+		&lt;/interface>
+		&lt;interface>
+			&lt;name>ethernet0/1&lt;/name>
+			&lt;description>SW_000001_0/1&lt;/description>
+			&lt;speed>10&lt;/speed>
+			&lt;duplex>Half&lt;/duplex>
+			&lt;error_count>
+				&lt;crc>0&lt;/crc>
+				&lt;frame>0&lt;/frame>
+				&lt;overrun>0&lt;/overrun>
+			&lt;/error_count>
+		&lt;/interface>
+	&lt;/switch>
 &lt;/root>
 </pre>
 
 # JSON: JavaScript Object Notation
 
-Take a look at the following json. It looks a lot like python doesn't it?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to yaml, but so much faster for parsing.
+Take a look at the following json. It looks a lot like python, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to yaml, but so much faster for parsing.
 
 <pre>
 {
