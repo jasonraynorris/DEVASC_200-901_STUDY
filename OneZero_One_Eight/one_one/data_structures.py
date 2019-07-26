@@ -18,9 +18,9 @@ https://docs.python.org/3/library/xml.etree.elementtree.html
 class DataStructures(object):
     def __init__(self):
         cur_path = os.path.dirname(__file__)
-        self.xml_file_name = os.path.relpath('..\\data_sets\\example_data_set.xml', cur_path)
-        self.json_file_name = os.path.relpath('..\\data_sets\\example_data_set.json', cur_path)
-        self.yaml_file_name = os.path.relpath('..\\data_sets\\example_data_set.yaml', cur_path)
+        self.xml_file_name = cur_path.replace("one_one","data_sets")+"\example_data_set.xml"
+        self.json_file_name = cur_path.replace("one_one", "data_sets") + "\example_data_set.json"
+        self.yaml_file_name = cur_path.replace("one_one", "data_sets") + "\example_data_set.yaml"
         print("Objectives:\n"
               " Let's compare the same data sizes using XML,JSON and YAML data structures\n"
               "  1. Compare parsing times?\n"
@@ -69,6 +69,7 @@ class DataStructures(object):
 
         else:
             _ = system ('clear')
+        print("\n")
 
     def end_section(self):
         input ("Press Any Key To Continue")
