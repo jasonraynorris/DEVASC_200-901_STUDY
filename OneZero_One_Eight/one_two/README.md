@@ -7,7 +7,8 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
-Take a look at the following xml.
+Take a look at the following xml. As you can see, the python data types are defined as an attribute.Examples of these data types include: list,dictionary,string,integer,float.  Without type included, python parsers will use duct typing to define the data type.
+
 <pre>
 &lt;?xml version="1.0" ?>
 &lt;root&gt;
