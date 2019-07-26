@@ -1,6 +1,8 @@
 # DEVASC_200-901_STUDY, Developed using Python3.7
 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
 
+I will be covering the same data using different formats.
+
 # XML: eXtensible Markup Language
 
 The follow image represents the common hierarchical structure of XML.  When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
@@ -81,5 +83,73 @@ Take a look at the following xml. As you can see, the python data types are defi
 
 # JSON: JavaScript Object Notation
 
+Take a look at the following json. It looks a lot like python doesn't it?  The data representations are the same.  This data format is my personal favourite.  It's readable and fast to parse for code usage.
+
+<pre>
+{
+    "switches": [
+        {
+            "hostname": "switch_000001",
+            "serial_numbers": {
+                "chassis": "SNXA0018AX00BA"
+            },
+            "interfaces": [
+                {
+                    "name": "ethernet0/0",
+                    "description": "SW_000002_0/0",
+                    "speed": 1000,
+                    "duplex": "Full",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                },
+                {
+                    "name": "ethernet0/1",
+                    "description": "SW_000002_0/1",
+                    "speed": 10,
+                    "duplex": "Half",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                }
+            ]
+        },
+        {
+            "hostname": "switch_000002",
+            "serial_numbers": {
+                "chassis": "SNXA0018AX00BC"
+            },
+            "interfaces": [
+                {
+                    "name": "ethernet0/0",
+                    "description": "SW_000001_0/0",
+                    "speed": 1000,
+                    "duplex": "Full",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                },
+                {
+                    "name": "ethernet0/1",
+                    "description": "SW_000001_0/1",
+                    "speed": 10,
+                    "duplex": "Half",
+                    "error_count": {
+                        "crc": 0,
+                        "frame": 0,
+                        "overrun": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
+</pre>
 # YAML: Ain't Markup Language
 
