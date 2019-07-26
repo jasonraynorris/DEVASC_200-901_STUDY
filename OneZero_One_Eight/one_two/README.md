@@ -9,10 +9,8 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 Look at the next xml 
 
-<pre>
-<%--
-<?xml version="1.0" ?>
-<root>
+&lt;?xml version="1.0" ?>
+&lt;root>
 	<switches type="list">
 		<item type="dict">
 			<hostname type="str">switch_000001</hostname>
@@ -75,7 +73,7 @@ Look at the next xml
 			</interfaces>
 		</item>
 	</switches>
-</root>
+&lt;/root>
 --%>
 </pre>
 
