@@ -7,6 +7,11 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
+<pre>
+    <%--your encoded code goes here--%>
+</pre>
+
+
 Look at the next xml 
 <div class"notranslate">
 <?xml version="1.0" ?>
