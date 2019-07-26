@@ -10,6 +10,7 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 Look at the next xml 
 
 <pre>
+<%--
 <?xml version="1.0" ?>
 <root>
 	<switches type="list">
@@ -75,5 +76,6 @@ Look at the next xml
 		</item>
 	</switches>
 </root>
+--%>
 </pre>
 
