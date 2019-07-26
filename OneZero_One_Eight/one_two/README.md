@@ -11,69 +11,69 @@ Look at the next xml
 
 &lt;?xml version="1.0" ?>
 &lt;root>
-	<switches type="list">
-		<item type="dict">
-			<hostname type="str">switch_000001</hostname>
-			<serial_numbers type="dict">
-				<chassis type="str">SNXA0018AX00BA</chassis>
-			</serial_numbers>
-			<interfaces type="list">
-				<item type="dict">
-					<name type="str">ethernet0/0</name>
-					<description type="str">SW_000002_0/0</description>
-					<speed type="int">1000</speed>
-					<duplex type="str">Full</duplex>
-					<error_count type="dict">
-						<crc type="int">0</crc>
-						<frame type="int">0</frame>
-						<overrun type="int">0</overrun>
-					</error_count>
-				</item>
-				<item type="dict">
-					<name type="str">ethernet0/1</name>
-					<description type="str">SW_000002_0/1</description>
-					<speed type="int">10</speed>
-					<duplex type="str">Half</duplex>
-					<error_count type="dict">
-						<crc type="int">0</crc>
-						<frame type="int">0</frame>
-						<overrun type="int">0</overrun>
-					</error_count>
-				</item>
-			</interfaces>
-		</item>
-		<item type="dict">
-			<hostname type="str">switch_000002</hostname>
-			<serial_numbers type="dict">
-				<chassis type="str">SNXA0018AX00BC</chassis>
-			</serial_numbers>
-			<interfaces type="list">
-				<item type="dict">
-					<name type="str">ethernet0/0</name>
-					<description type="str">SW_000001_0/0</description>
-					<speed type="int">1000</speed>
-					<duplex type="str">Full</duplex>
-					<error_count type="dict">
-						<crc type="int">0</crc>
-						<frame type="int">0</frame>
-						<overrun type="int">0</overrun>
-					</error_count>
-				</item>
-				<item type="dict">
-					<name type="str">ethernet0/1</name>
-					<description type="str">SW_000001_0/1</description>
-					<speed type="int">10</speed>
-					<duplex type="str">Half</duplex>
-					<error_count type="dict">
-						<crc type="int">0</crc>
-						<frame type="int">0</frame>
-						<overrun type="int">0</overrun>
-					</error_count>
-				</item>
-			</interfaces>
-		</item>
-	</switches>
+	&lt;switches type="list">
+		&lt;item type="dict">
+			&lt;hostname type="str">switch_000001&lt;/hostname>
+			&lt;serial_numbers type="dict">
+				&lt;chassis type="str">SNXA0018AX00BA&lt;/chassis>
+			&lt;/serial_numbers>
+			&lt;interfaces type="list">
+				&lt;item type="dict">
+					&lt;name type="str">ethernet0/0&lt;/name>
+					&lt;description type="str">SW_000002_0/0&lt;/description>
+					&lt;speed type="int">1000&lt;/speed>
+					&lt;duplex type="str">Full&lt;/duplex>
+					&lt;error_count type="dict">
+						&lt;crc type="int">0&lt;/crc>
+						&lt;frame type="int">0&lt;/frame>
+						&lt;overrun type="int">0&lt;/overrun>
+					&lt;/error_count>
+				&lt;/item>
+				&lt;item type="dict">
+					&lt;name type="str">ethernet0/1&lt;/name>
+					&lt;description type="str">SW_000002_0/1&lt;/description>
+					&lt;speed type="int">10&lt;/speed>
+					&lt;duplex type="str">Half&lt;/duplex>
+					&lt;error_count type="dict">
+						&lt;crc type="int">0&lt;/crc>
+						&lt;frame type="int">0&lt;/frame>
+						&lt;overrun type="int">0&lt;/overrun>
+					&lt;/error_count>
+				&lt;/item>
+			&lt;/interfaces>
+		&lt;/item>
+		&lt;item type="dict">
+			&lt;hostname type="str">switch_000002&lt;/hostname>
+			&lt;serial_numbers type="dict">
+				&lt;chassis type="str">SNXA0018AX00BC&lt;/chassis>
+			&lt;/serial_numbers>
+			&lt;interfaces type="list">
+				&lt;item type="dict">
+					&lt;name type="str">ethernet0/0&lt;/name>
+					&lt;description type="str">SW_000001_0/0&lt;/description>
+					&lt;speed type="int">1000&lt;/speed>
+					&lt;duplex type="str">Full&lt;/duplex>
+					&lt;error_count type="dict">
+						&lt;crc type="int">0&lt;/crc>
+						&lt;frame type="int">0&lt;/frame>
+						&lt;overrun type="int">0&lt;/overrun>
+					&lt;/error_count>
+				&lt;/item>
+				&lt;item type="dict">
+					&lt;name type="str">ethernet0/1&lt;/name>
+					&lt;description type="str">SW_000001_0/1&lt;/description>
+					&lt;speed type="int">10&lt;/speed>
+					&lt;duplex type="str">Half&lt;/duplex>
+					&lt;error_count type="dict">
+						&lt;crc type="int">0&lt;/crc>
+						&lt;frame type="int">0&lt;/frame>
+						&lt;overrun type="int">0&lt;/overrun>
+					&lt;/error_count>
+				&lt;/item>
+			&lt;/interfaces>
+		&lt;/item>
+	&lt;/switches>
 &lt;/root>
---%>
-</pre>
+
+
 
