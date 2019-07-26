@@ -1,7 +1,7 @@
 # DEVASC_200-901_STUDY, Developed using Python3.7
 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
 
-# XML
+# XML: eXtensible Markup Language
 
 The follow image represents the common hierarchical structure of XML.  When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
 
@@ -79,7 +79,7 @@ Take a look at the following xml. As you can see, the python data types are defi
 &lt;/root>
 </pre>
 
-# JSON
+# JSON: JavaScript Object Notation
 
-# YAML
+# YAML: Ain't Markup Language
 
