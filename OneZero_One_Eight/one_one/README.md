@@ -1,7 +1,7 @@
 # DEVASC_200-901_STUDY, Developed using Python3.7
 1.1 Compare data formats (XML, JSON, and YAML)
 
-Q. What are these data format?
+Q. What are these data formats?
  A. These data formats are structures intended to serialize data for storage and transfer.
 
 The data_structures.py is designed to give you a comparison in code of XML,JSON,and YAML.
