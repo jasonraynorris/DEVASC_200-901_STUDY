@@ -1,6 +1,8 @@
 # DEVASC_200-901_STUDY, Developed using Python3.7
 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
 
+# XML
+
 The follow image represents the common hierarchical structure of XML.  When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
 
 Reference: https://www.w3schools.com/xml/xml_tree.asp
@@ -9,8 +11,6 @@ Reference: https://www.w3schools.com/xml/xml_tree.asp
 
 Take a look at the following xml. As you can see, the python data types are defined as an attribute.Examples of these data types include: list,dictionary,string,integer,float.  Without type included, python parsers will use duct typing to define the data type.
 
-<div style="border: 5px solid red">
-	</div>
 <pre>
 &lt;?xml version="1.0" ?>
 &lt;root&gt;
@@ -79,4 +79,7 @@ Take a look at the following xml. As you can see, the python data types are defi
 &lt;/root>
 </pre>
 
+# JSON
+
+# YAML
 
