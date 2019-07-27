@@ -5,11 +5,11 @@
 </h5>
 <hr>
 Q. What are these data formats?
- A. These data formats are structures intended to serialize data for storage and transfer.
-
-The data_structures.py is designed to give you a comparison in code of XML, JSON, and YAML.
-
-If you want to compare a different data set, just replace the example files and run data_structures.py:
+<br> &nbsp;&nbsp;&nbsp;A. These data formats are structures intended to serialize data for storage and transfer.
+<br><br>
+We have written data_structures.py to help give you a comparison using code of XML, JSON, and YAML.
+<br><br>
+If you want to compare a different data set, just replace these example files:
 
 1. example_data_set.XML
 1. example_data_set.json
@@ -27,13 +27,13 @@ Reference: https://www.tutorialspoint.com/yaml/
 <hr>
  <h6>Section 1.1.1</h6>
 
-# Ranking Format Matrix
+# Ranking Data Formats
 
 These rankings represent my own thoughts and opinions. Please come back to this section after 1.0-1.8 for review.
  
 Ranking based on the following criteria:
 <pre>
-HumanProcess - Ability to read,write and comprehend the overall data structure.
+HumanProcess - Ability to read, write and comprehend the overall data structure.
 CodeUsability - Ability to parse and use the data structure in code.
 CodePerformance - Code parsing performance.
 Storage&Transfer - Total size for storage and transfer(including compression).
@@ -68,7 +68,6 @@ Storage&Transfer - Total size for storage and transfer(including compression).
     <td>Z</td>
   </tr>  
 </table>
-<hr>
 <hr>
  <h6>Section 1.1.2</h6>
 
