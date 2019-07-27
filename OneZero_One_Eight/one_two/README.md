@@ -29,7 +29,7 @@ When describing element relationships we use terms such as parent, child, siblin
 
 The image below represents the hierarchical structure of the example_data_set.xml.
 
-<img src="https://i.ibb.co/r4gFj2N/xml-structure.jpg">
+<img src="https://i.ibb.co/P5d47YB/xml-structure.jpg">
 <br>
 Pay careful attention to the comments in the method we used below to parse the structure above.
 
