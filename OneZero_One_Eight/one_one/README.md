@@ -49,23 +49,23 @@ Storage&Transfer - Total size for storage and transfer(including compression).
   <tr>
     <td>XML</td>
     <td>7/10</td> 
-    <td>6/10</td>
-    <td>6/10</td>
-    <td>6/10</td>
+    <td>?</td>
+    <td>7/10</td>
+    <td>8/10</td>
   </tr>
   <tr>
     <td>JSON</td>
-    <td>X</td> 
-    <td>Y</td>
-    <td>Z</td>
-    <td>Z</td>
+    <td>9/10</td>
+    <td>?</td>
+    <td>10/10</td>
+    <td>9/10</td>
   </tr>
   <tr>
     <td>YAML</td>
-    <td>X</td> 
-    <td>Y</td>
-    <td>Z</td>
-    <td>Z</td>
+    <td>10/10</td> 
+    <td>?</td>
+    <td>1/10</td>
+    <td>10/10</td>
   </tr>  
 </table>
 <hr>
