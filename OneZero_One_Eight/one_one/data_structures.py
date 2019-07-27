@@ -17,6 +17,7 @@ https://docs.python.org/3/library/xml.etree.elementtree.html
 """
 class DataStructures(object):
     def __init__(self):
+        print("Using data_structures.py")
         cur_path = os.path.dirname(__file__)
         self.xml_file_name = cur_path.replace("one_one","data_sets")+"\example_data_set.xml"
         self.json_file_name = cur_path.replace("one_one", "data_sets") + "\example_data_set.json"

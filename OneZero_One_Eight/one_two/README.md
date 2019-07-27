@@ -1,5 +1,5 @@
 # DEVASC_200-901_STUDY
-<p>Author:Jason Ray Norris</p>
+<p>Author: Jason Ray Norris</p>
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
@@ -26,13 +26,14 @@ An XML element can be any open and closed tag. &lt;tag>&lt;/tag>
 
 When describing element relationships we use terms such as parent, child, sibling, and subchild.
 
-The follow image represents the hierarchical structure of XML.
-<hr>
-Reference: https://www.w3schools.com/xml/xml_tree.asp
+
+The image below represents the hierarchical structure of the example_data_set.xml.
+
+<img src="https://i.ibb.co/r4gFj2N/xml-structure.jpg">
 <br>
+Pay careful attention to the comments in the method we used below to parse the structure above.
 
-
-<img src="https://www.w3schools.com/xml/nodetree.gif">
+<img src="https://i.ibb.co/CwYtY3s/parsexml.jpg">
 
 <hr>
 Look at the following XML. XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
