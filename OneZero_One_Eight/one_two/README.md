@@ -1,13 +1,18 @@
-# DEVASC_200-901_STUDY, Developed using Python3.7.4
-1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
+# DEVASC_200-901_STUDY
+<h4>Developed using Python3.7.4</h4>
 <hr>
-I will be covering the same data using different formats.  I will only be using native libraries in python version 3.7.4 for xml and json.
+<h5>1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
+</h5>
+<hr>
+
+We will be covering the same data using different formats.  We will only be using native libraries in Python version 3.7.4 for XML and JSON.
+
 
 Reference: https://docs.python.org/3/library/xml.etree.elementtree.html
 
 Reference: https://docs.python.org/3/library/json.html
 
-I will use pyyaml 5.1.1 for yaml. 
+There is no current native YAML parser in Python as of the current date and time.  We will use pyyaml 5.1.1 for YAML. 
 
 Reference: https://pyyaml.org/wiki/PyYAMLDocumentation
 <hr>

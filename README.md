@@ -1,5 +1,9 @@
-# DEVASC_200-901_STUDY, Developed using Python3.7.4
-Study repository for Cisco DEVASC 200-901
+# DEVASC_200-901_STUDY
+<h4>Developed using Python3.7.4</h4>
+<hr>
+<h5>Study repository for Cisco DEVASC 200-901
+</h5>
+<hr>
 
 I created this code in order to generate study material for the coming Cisco DEVASC 200-901 exam in February 2020.  These materials do not representative Cisco. Please note that all exercises, statements and data produced are of my own observation and creation. All subject matter provided in this study is subject to change.
 

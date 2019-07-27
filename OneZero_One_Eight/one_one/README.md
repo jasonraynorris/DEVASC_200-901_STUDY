@@ -1,6 +1,9 @@
-# DEVASC_200-901_STUDY, Developed using Python3.7.4
-1.1 Compare data formats (XML, JSON, and YAML)
-
+# DEVASC_200-901_STUDY
+<h4>Developed using Python3.7.4</h4>
+<hr>
+<h5>1.1 Compare data formats (XML, JSON, and YAML)
+</h5>
+<hr>
 Q. What are these data formats?
  A. These data formats are structures intended to serialize data for storage and transfer.
 
