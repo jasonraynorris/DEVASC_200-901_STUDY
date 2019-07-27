@@ -15,22 +15,26 @@ Reference: https://docs.python.org/3/library/json.html
 There is no current native YAML parser in Python as of the current date and time.  We will use pyyaml 5.1.1 for YAML. 
 
 Reference: https://pyyaml.org/wiki/PyYAMLDocumentation
+
 <hr>
  <h6>Section 1.2.1</h6>
  
 # XML: eXtensible Markup Language
 
-The follow image represents the hierarchical structure of XML.  
+An XML element can be any open and closed tag. &lt;tag>&lt;/tag>
 
-When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
+When describing element relationships we use terms such as parent, child, sibling, and subchild.
 
+The follow image represents the hierarchical structure of XML.
 <hr>
 Reference: https://www.w3schools.com/xml/xml_tree.asp
+<br>
+
 
 <img src="https://www.w3schools.com/xml/nodetree.gif">
 
 <hr>
-Take a look at the following xml. Xml is the oldest of the three data formats.  It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
+Look at the following XML. XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
 
 <pre>
 &lt;?xml version="1.0" ?>
@@ -98,7 +102,7 @@ Take a look at the following xml. Xml is the oldest of the three data formats.  
  
 # JSON: JavaScript Object Notation
 
-Take a look at the following json. It looks a lot like python, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to yaml, but so much faster for parsing.
+Take a look at the following JSON. It looks a lot like Python, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to YAML, but so much faster for parsing.
 
 <pre>
 {
@@ -172,7 +176,9 @@ Take a look at the following json. It looks a lot like python, does it not?  The
  
 # YAML: Ain't Markup Language
 
-Take a look at the following yaml.  It looks very readable doesn't it? How could you go wrong? It's readable, low transfer and storage cost. There's a catch! It parses very slowly in comparison with the other formats. Look at the previous sections output data! It also is not as commonly native supported for languages.  If you run into a language without a native parser, I suppose you can write your own...
+Take a look at the following YAML.  It looks very readable does it not? How could you go wrong? It's readable, low transfer and storage cost. There's a catch! YAML (pyyaml) parses very slowly in comparison with the other formats. Look at the previous 1.1 section output data!
+
+It also is not as widely supported natively in common languages.  If you run into a language without a native parser, I suppose you can write your own...?
 
 <pre>
 switches:
