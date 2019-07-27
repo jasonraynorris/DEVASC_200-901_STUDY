@@ -22,7 +22,11 @@ Reference: https://pyyaml.org/wiki/PyYAMLDocumentation
  
 # XML: eXtensible Markup Language
 
-An XML element can be any open and closed tag. &lt;tag>&lt;/tag>
+An XML element can be represented by any open and closed tag. &lt;tag>&lt;/tag><br>
+An element can have attributes. &lt;tag price="free">&lt;/tag><br>
+An element can have text. &lt;tag price="free">my element text&lt;/tag><br>
+An element can have children. &lt;parent_tag>&lt;child_tag>&lt;/child_tag>&lt;/parent_tag><br>
+
 
 When describing element relationships we use terms such as parent, child, sibling, and subchild.
 
@@ -32,6 +36,7 @@ The image below represents the hierarchical structure of the example_data_set.xm
 <img src="https://i.ibb.co/P5d47YB/xml-structure.jpg">
 <br>
 Pay careful attention to the comments in the method we used below to parse the structure above.
+We are looking for switches and want to store their hostnames and chassis serial numbers.
 
 <img src="https://i.ibb.co/CwYtY3s/parsexml.jpg">
 
