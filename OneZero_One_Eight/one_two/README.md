@@ -1,4 +1,5 @@
 # DEVASC_200-901_STUDY
+<p>Author:Jason Ray Norris</p>
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
