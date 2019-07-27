@@ -96,7 +96,7 @@ When describing element relationships we use terms such as parent, child, siblin
 
 The image below represents the hierarchical structure of elements in example_data_set.xml.
 
-<img src="https://i.ibb.co/n8wgNVm/xml-structure.jpg">
+<img src="https://i.ibb.co/xM8bBRW/xml-structure.jpg">
 <br><br>
 Pay careful attention to the comments in the method we used below to parse the XML structure above.
 We are looking for switches and want to store their hostnames and chassis serial numbers.
