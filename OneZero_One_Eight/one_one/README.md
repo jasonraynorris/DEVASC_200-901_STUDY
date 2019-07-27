@@ -1,4 +1,5 @@
 # DEVASC_200-901_STUDY
+<p>Author:Jason Ray Norris</p>
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>1.1 Compare data formats (XML, JSON, and YAML)
@@ -33,9 +34,9 @@ These rankings represent my own thoughts and opinions. Please come back to this 
  
 Ranking based on the following criteria:
 <pre>
-HumanProcess - Ability to read, write and comprehend the overall data structure.
-CodeUsability - Ability to parse and use the data structure in code.
-CodePerformance - Code parsing performance.
+HumanProcess     - Ability to read, write and comprehend the overall data structure.
+CodeUsability    - Ability to parse and use the data structure in code.
+CodePerformance  - Code parsing performance.
 Storage&Transfer - Total size for storage and transfer(including compression).
 </pre>
 <table style="width:100%">
