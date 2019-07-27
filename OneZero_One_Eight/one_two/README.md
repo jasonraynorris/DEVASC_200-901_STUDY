@@ -1,11 +1,23 @@
-# DEVASC_200-901_STUDY, Developed using Python3.7
+# DEVASC_200-901_STUDY, Developed using Python3.7.4
 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
+<hr>
+I will be covering the same data using different formats.  I will only be using native libraries in python version 3.7.4 for xml and json.
 
-I will be covering the same data using different formats.
+Reference: https://docs.python.org/3/library/xml.etree.elementtree.html
 
+Reference: https://docs.python.org/3/library/json.html
+
+I will use pyyaml 5.1.1 for yaml. 
+
+Reference: https://pyyaml.org/wiki/PyYAMLDocumentation
+<hr>
+ <h6>Section 1.2.1</h6>
+ 
 # XML: eXtensible Markup Language
 
-The follow image represents the common hierarchical structure of XML.  When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
+The follow image represents the hierarchical structure of XML.  
+
+When using XML parsers, common variables and functions might include terms such as root,element,parent,child, and subchild.
 
 <hr>
 Reference: https://www.w3schools.com/xml/xml_tree.asp
@@ -76,7 +88,9 @@ Take a look at the following xml. Xml is the oldest of the three data formats.  
 	&lt;/switch>
 &lt;/root>
 </pre>
-
+<hr>
+ <h6>Section 1.2.2</h6>
+ 
 # JSON: JavaScript Object Notation
 
 Take a look at the following json. It looks a lot like python, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to yaml, but so much faster for parsing.
@@ -147,6 +161,10 @@ Take a look at the following json. It looks a lot like python, does it not?  The
     ]
 }
 </pre>
+
+<hr>
+ <h6>Section 1.2.2</h6>
+ 
 # YAML: Ain't Markup Language
 
 Take a look at the following yaml.  It looks very readable doesn't it? How could you go wrong? It's readable, low transfer and storage cost. There's a catch! It parses very slowly in comparison with the other formats. Look at the previous sections output data! It also is not as commonly native supported for languages.  If you run into a language without a native parser, I suppose you can write your own...
