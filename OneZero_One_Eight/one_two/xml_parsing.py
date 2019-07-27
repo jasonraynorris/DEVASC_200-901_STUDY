@@ -20,19 +20,15 @@ class XMLParsing(object):
         """We use the tree objects built-in function getroot() to return the root element of the tree"""
         root = tree.getroot()
         """We iterate over the root element for elements with the tag switch"""
-        for switch in root.iter('switch'):
+        for switch in root.findall('switch'):
             """For every switch we instantiate a dictionary object to store what we find about our switch"""
             switch_out = {'hostname': None, "chassis_serial": None}
-            """We iterate over the switch element for elements with the tag hostname"""
-            for switch_hostname_element in switch.iter("hostname"):
-                """We store the text within the tagged element to our previously created dictionary as switch_out['hostname']"""
-                switch_out['hostname'] = switch_hostname_element.text
-            """We iterate over the switch element for elements with the tag serial_numbers"""
-            for switch_serial_numbers_element in switch.iter("serial_numbers"):
-                """We iterate over the serial_numbers element for elements with the tag chassis"""
-                for switch_chassis_serial_number_element in switch_serial_numbers_element.iter("chassis"):
-                    """We store the text within the tagged element to our previously created dictionary as switch_out['chassis_serial']"""
-                    switch_out['chassis_serial'] = switch_chassis_serial_number_element.text
+            """We find and store the hostname text within the tagged element to our previously created dictionary as switch_out['hostname']"""
+            switch_out['hostname'] = switch.find("hostname").text
+            """We find the switch serial numbers element"""
+            switch_serial_numbers_element = switch.find("serial_numbers")
+            """We find and store the chassis serial text within the tagged element to our previously created dictionary as switch_out['chassis_serial']"""
+            switch_out['chassis_serial'] = switch_serial_numbers_element.find("chassis").text
             """Finally, we print what we found"""
             print("hostname:%s chassis_serial:%s" % (switch_out['hostname'], switch_out['chassis_serial']))
 
