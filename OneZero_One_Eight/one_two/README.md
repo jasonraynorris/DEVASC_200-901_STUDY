@@ -33,15 +33,18 @@ When describing element relationships we use terms such as parent, child, siblin
 
 The image below represents the hierarchical structure of the example_data_set.xml.
 
-<img src="https://i.ibb.co/P5d47YB/xml-structure.jpg">
-<br>
+<img src="https://i.ibb.co/FbVsSyW/xml-structure.jpg">
+<br><br>
 Pay careful attention to the comments in the method we used below to parse the structure above.
 We are looking for switches and want to store their hostnames and chassis serial numbers.
+<br><br>
 
 <img src="https://i.ibb.co/CwYtY3s/parsexml.jpg">
 
-<hr>
-Look at the following XML. XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
+<br><br>
+XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
+<br><br>
+example_data_set.xml.
 
 <pre>
 &lt;?xml version="1.0" ?>
