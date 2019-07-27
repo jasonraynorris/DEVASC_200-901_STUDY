@@ -6,7 +6,7 @@ class XMLParsing(object):
     def __init__(self):
         print("Using xml_parsing.py")
         print(
-            "\n Let's find the hostname and serial numbers of each switch in example_data_set.xml.\n Since we know the structure, this shouldn't be that hard\n")
+            "\n Let's find the hostname and serial numbers of each switch in example_data_set.xml.\n")
         self.end_section()
         self.parsexml()
 
@@ -30,6 +30,7 @@ class XMLParsing(object):
             """We find and store the chassis serial text within the tagged element to our previously created dictionary as switch_out['chassis_serial']"""
             switch_out['chassis_serial'] = switch_serial_numbers_element.find("chassis").text
             """Finally, we print what we found"""
+            """We could remove some of this code and use some one *one-liners*, but this should be easier to understand"""
             print("hostname:%s chassis_serial:%s" % (switch_out['hostname'], switch_out['chassis_serial']))
 
 

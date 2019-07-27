@@ -120,9 +120,8 @@ XML is the oldest of the three data formats. It's usable and commonly supported,
  <h6>Section 1.2.2</h6>
  
 # JSON: JavaScript Object Notation
-
-Take a look at the following JSON. It looks a lot like Python, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to YAML, but so much faster for parsing.
-
+<br>
+Reference example_data_set.json. 
 <pre>
 {
     "switches": [
@@ -190,6 +189,25 @@ Take a look at the following JSON. It looks a lot like Python, does it not?  The
 }
 </pre>
 
+JSON looks a lot like Python data structures, does it not?  The data representations are the same.  This data format is my personal preference.  It's readable and fast to parse for code usage. It has a slight higher storage and transfer cost as opposed to YAML, but so much faster for parsing.
+<br><br>
+JSON is a structure designed to hierarchically embed common data types for storage and transfer. Store and transfer a serialized object data natively without worrying about how to do conversions. From code to storage/transfer to code. It's the same representation.
+<br><br>
+If you want to transfer strings,integers,floating points,dictionaries,lists,tuples... the list goes on and on.  Most common data types are natively supported.
+
+The image below represents the hierarchical structure of elements in example_data_set.json.
+<img src="https://i.ibb.co/j6HG4Ln/parsejson.jpg">
+Pay careful attention to the comments in the method we used below to parse the JSON structure above. We are again looking for switches and want to store their hostnames and chassis serial numbers. 
+
+Reference: https://docs.python.org/3/library/json.html
+
+
+The following method can be located in json_parsing.py.
+ 
+
+<img src="https://i.ibb.co/xfHHnkR/parsejson.jpg">
+<br><br>
+If you can write code, you can write JSON.  It's that simple.  There is no need to learn and retain knowledge around many independent parser specifics.
 <hr>
  <h6>Section 1.2.2</h6>
  
