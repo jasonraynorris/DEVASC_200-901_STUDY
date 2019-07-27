@@ -6,7 +6,7 @@
 </h5>
 <hr>
 
-We will be covering the same data using different formats.  We will only be using native libraries in Python version 3.7.4 for XML and JSON.
+We will be covering the same data utilizing different formats.  We will only be using native libraries in Python version 3.7.4 for XML and JSON.
 
 
 Reference: https://docs.python.org/3/library/xml.etree.elementtree.html
@@ -22,30 +22,7 @@ Reference: https://pyyaml.org/wiki/PyYAMLDocumentation
  
 # XML: eXtensible Markup Language
 
-An XML element can be represented by any open and closed tag. &lt;tag>&lt;/tag><br>
-An element can have attributes. &lt;tag price="free">&lt;/tag><br>
-An element can have text. &lt;tag price="free">my element text&lt;/tag><br>
-An element can have children. &lt;parent_tag>&lt;child_tag>&lt;/child_tag>&lt;/parent_tag><br>
-
-
-When describing element relationships we use terms such as parent, child, sibling, and subchild.
-
-
-The image below represents the hierarchical structure of the example_data_set.xml.
-
-<img src="https://i.ibb.co/FbVsSyW/xml-structure.jpg">
-<br><br>
-Pay careful attention to the comments in the method we used below to parse the structure above.
-We are looking for switches and want to store their hostnames and chassis serial numbers.
-<br><br>
-
-<img src="https://i.ibb.co/CwYtY3s/parsexml.jpg">
-
-<br><br>
-XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
-<br><br>
-example_data_set.xml.
-
+Reference example_data_set.xml.
 <pre>
 &lt;?xml version="1.0" ?>
 &lt;root>
@@ -107,6 +84,38 @@ example_data_set.xml.
 	&lt;/switch>
 &lt;/root>
 </pre>
+
+An XML element can be represented by any open and closed tag. &lt;tag>&lt;/tag><br>
+An element can have attributes. &lt;tag price="free">&lt;/tag><br>
+An element can have text. &lt;tag price="free">my element text&lt;/tag><br>
+An element can have children. &lt;parent_tag>&lt;child_tag>&lt;/child_tag>&lt;/parent_tag><br>
+
+
+When describing element relationships we use terms such as parent, child, sibling, and subchild.
+
+
+The image below represents the hierarchical structure of elements in example_data_set.xml.
+
+<img src="https://i.ibb.co/n8wgNVm/xml-structure.jpg">
+<br><br>
+Pay careful attention to the comments in the method we used below to parse the XML structure above.
+We are looking for switches and want to store their hostnames and chassis serial numbers.
+<br><br>
+
+Reference: https://docs.python.org/3/library/xml.etree.elementtree.html
+<br>Element.iter() iterate recursively over all the sub-tree below the element.
+<br>Element.findall() finds only elements with a tag which are direct children of the current element.
+<br>Element.find() finds the first child with a particular tag, and Element.text accesses the element’s text content.
+<br>Element.get() accesses the element’s attributes.
+<br><br>
+The following method can be located in xml_parsing.py. 
+
+<img src="https://i.ibb.co/TBvyg4y/parsexml.jpg">
+
+<br><br>
+XML is the oldest of the three data formats. It's usable and commonly supported, but not always the best choice.  It has the highest transfer and storage cost of all three data formats.
+<br><br>
+
 <hr>
  <h6>Section 1.2.2</h6>
  
