@@ -7,7 +7,7 @@
 Q. What are these data formats?
 <br> &nbsp;&nbsp;&nbsp;A. These data formats are structures intended to serialize data for storage and transfer.
 <br><br>
-We have written data_structures.py to help give you a comparison using code of XML, JSON, and YAML.
+We have written data_structures.py to give you a tool for comparison metrics of XML, JSON, and YAML using code.
 <br><br>
 If you want to compare a different data set, just replace these example files:
 
