@@ -29,7 +29,7 @@ Reference: https://www.tutorialspoint.com/yaml/
 
 # Ranking Format Matrix
 
-These rankings represent my own thoughts and options. Please come back to this section after 1.0-1.8 for review.
+These rankings represent my own thoughts and opinions. Please come back to this section after 1.0-1.8 for review.
  
 Ranking based on the following criteria:
 <pre>
