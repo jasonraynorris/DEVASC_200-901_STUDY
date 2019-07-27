@@ -1,5 +1,5 @@
 # DEVASC_200-901_STUDY
-<p>Author:Jason Ray Norris</p>
+<p>Author: Jason Ray Norris</p>
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>1.1 Compare data formats (XML, JSON, and YAML)
