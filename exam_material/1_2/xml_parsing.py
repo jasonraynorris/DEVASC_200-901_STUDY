@@ -14,7 +14,7 @@ class XMLParsing(object):
         """We get the current path that our file running this function is in"""
         cur_path = os.path.dirname(__file__)
         """We replace the last directory with data_sets and append the file name"""
-        self.xml_file_name = cur_path.replace("one_two","data_sets")+"\example_data_set.xml"
+        self.xml_file_name = cur_path.replace("1_2","data_sets")+"\example_data_set.xml"
         """We parse the xml file using the native xml parser at xml.etree.ElementTree.ET.parse() and return the xml tree"""
         tree = ET.parse(self.xml_file_name)
         """We use the tree objects built-in function getroot() to return the root element of the tree"""

@@ -14,7 +14,7 @@ class JSONParsing(object):
         """We get the current path that our file running this function is in"""
         cur_path = os.path.dirname(__file__)
         """We replace the last directory with data_sets and append the file name"""
-        self.json_file_name = cur_path.replace("one_two", "data_sets") + "\example_data_set.json"
+        self.json_file_name = cur_path.replace("1_2", "data_sets") + "\example_data_set.json"
         """We open the file"""
         self.json_file = open(self.json_file_name,"r")
         """We store the contents of the file as a string"""
