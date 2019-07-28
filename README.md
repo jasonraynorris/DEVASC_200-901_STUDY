@@ -24,6 +24,7 @@ Reference: https://learningnetwork.cisco.com/community/certifications/devnet-ass
 We will apply bold to each section as it considered in a state of completion
  
 #Study Completion
+
 <br>
 
 
