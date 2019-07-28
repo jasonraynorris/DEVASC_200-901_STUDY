@@ -1,5 +1,8 @@
 # DEVASC_200-901_STUDY
 <p>Author: Jason Ray Norris</p>
+Author Intro: https://youtu.be/KNlcMCTwYq4
+<br><br>
+DEVASC_200_901_STUDY Intro: https://youtu.be/PVovnjHuZtc
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>Study repository for Cisco DEVASC 200-901

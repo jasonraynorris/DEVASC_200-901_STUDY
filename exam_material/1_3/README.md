@@ -53,4 +53,3 @@ Back to a more serious note.  Let's summarize my interpretation of these steps.
 Reference: https://en.wikipedia.org/wiki/Code_refactoring
 
 <b>Code refactoring</b> is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring is intended to improve nonfunctional attributes of the software. Advantages include improved code readability and reduced complexity; these can improve source-code maintainability and create a more expressive internal architecture or object model to improve extensibility.
-
