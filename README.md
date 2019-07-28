@@ -1,8 +1,10 @@
 # DEVASC_200-901_STUDY
 <p>Author: Jason Ray Norris</p>
-Author Intro: https://youtu.be/KNlcMCTwYq4
+
 <br><br>
-DEVASC_200_901_STUDY Intro: https://youtu.be/PVovnjHuZtc
+DEVASC_200_901_STUDY
+<br><br>
+Getting Started: https://youtu.be/PVovnjHuZtc
 <h4>Developed using Python3.7.4</h4>
 <hr>
 <h5>Study repository for Cisco DEVASC 200-901
@@ -35,6 +37,7 @@ We will apply bold to each section as it considered in a state of completion
 <b>1.0 Software Development and Design
 
 1.1 Compare data formats (XML, JSON, and YAML)
+https://www.youtube.com/watch?v=IhIAknaocsw&t=76s
 
 1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures</b>
 
