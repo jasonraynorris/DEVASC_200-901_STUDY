@@ -203,7 +203,6 @@ Reference: https://docs.python.org/3/library/json.html
 
 
 The following method can be located in json_parsing.py.
- 
 
 <img src="https://i.ibb.co/xfHHnkR/parsejson.jpg">
 <br><br>
@@ -212,11 +211,7 @@ If you can write code, you can write JSON.  It's that simple.  There is no need 
  <h6>Section 1.2.2</h6>
  
 # YAML: Ain't Markup Language
-
-Take a look at the following YAML.  It looks very readable does it not? How could you go wrong? It's readable, low transfer and storage cost. There's a catch! YAML (pyyaml) parses very slowly in comparison with the other formats. Look at the previous 1.1 section output data!
-
-It also is not as widely supported natively in common languages.  If you run into a language without a native parser, I suppose you can write your own...?
-
+Reference example_data_set.yaml.
 <pre>
 switches:
 - hostname: switch_000001
@@ -246,3 +241,14 @@ switches:
     speed: 10
   serial_numbers: {chassis: SNXA0018AX00BC}
   </pre>
+YAML looks very readable does it not? How could you go wrong? It's readable, low transfer and storage cost. There's a catch! YAML (pyyaml) parses very slowly in comparison with the other formats. Look at the previous 1.1 section output data!
+It also is not as widely supported natively in common languages.  If you run into a language without a native parser, I suppose you can write your own...?
+<br><br>
+The data structure is the same as our JSON example above.
+<br><br>
+The following method can be located in yaml_parsing.py.
+<img src="https://i.ibb.co/GpzKc8k/parseyaml.jpg">
+You can spend time looking this over, but in short... Besides the load function, this parses the same as JSON.
+
+
+
