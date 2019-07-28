@@ -20,12 +20,13 @@ Exam topics are located in 200-901-DEVASC.pdf.
 Reference: https://learningnetwork.cisco.com/community/certifications/devnet-associate/devasc/exam-topics
 
 <hr>
- <h6>Section 0</h6>
-We will apply bold to each section as it considered in a state of completion
- 
-#Study Completion
+ <h6>Section</h6>
 
-<br>
+# Study Completion
+
+We will apply bold to each section as it considered in a state of completion
+<br><br>
+
 
 
 <b>1.0 Software Development and Design
