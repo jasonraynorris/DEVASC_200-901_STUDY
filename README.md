@@ -6,7 +6,7 @@
 </h5>
 <hr>
 
-Reference each folder section README. The exam sections are organized by folder.
+This is a work in progress.  Reference each folder section README. The exam sections are organized by folder.
 
 This repository is created in order to generate study material for the up and coming Cisco DEVASC 200-901 exam available in February 2020.  
 
@@ -18,13 +18,20 @@ Absolve this material from any liability, verification or providing correctness 
 Exam topics are located in 200-901-DEVASC.pdf.
 
 Reference: https://learningnetwork.cisco.com/community/certifications/devnet-associate/devasc/exam-topics
-<hr>
 
-1.0 Software Development and Design
+<hr>
+ <h6>Section 0</h6>
+We will apply bold to each section as it considered in a state of completion
+ 
+#Study Completion
+<br>
+
+
+<b>1.0 Software Development and Design
 
 1.1 Compare data formats (XML, JSON, and YAML)
 
-1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
+1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures</b>
 
 1.3 Describe the concepts of test-driven development
 
