@@ -24,8 +24,7 @@ Waterfall is the core workflow used in each of the three development processes.
 2. Design - Design solution to meet the requirements.
 3. Implementation - Engineering and implementation.
 4. Testing - Make sure it all works.
-5. Release + Maintenance - Release the code.
-6. Release to Market - Customer, Stakeholder, and Consumer get the product.
+5. Release to Market - Customer, Stakeholder, and Consumer get the product.
 
 <img src="https://i.ibb.co/wwrLTmS/waterfall-dev-process.png">
 
@@ -54,8 +53,9 @@ This time we gear the initial design towards a <b>minimal viable product</b>.
 2. (Compressed Waterfall Phases) + Get Customer Feedback
 3. (Compressed Waterfall Phases) + Get Customer Feedback
 4. (Compressed Waterfall Phases) + Get Customer Feedback
-5. (Compressed Waterfall Phases) + Get Customer Feedback
-6. Release to Market - Customer, Stakeholder, and Consumer get the product.
+5. Release to Market - Customer, Stakeholder, and Consumer get the product.
+
+<img src="https://i.ibb.co/zGBBK9H/agile-dev-process.jpg">
 
 This gives the customer an early look at the product to determine if we are developing in the right direction.
 
