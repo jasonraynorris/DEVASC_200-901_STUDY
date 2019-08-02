@@ -5,13 +5,15 @@
 <h5>1.4 Compare software development methods (agile, lean, and waterfall)
 
 </h5>
+
+Reference: http://irfanebrahim.com/2014/11/02/waterfall-vs-agile-vs-lean-explained-in-1-picture/
+
 <hr>
 
 <h6>Section 1.4.1</h6>
 
 # What is waterfall development?
 
-Reference: http://irfanebrahim.com/2014/11/02/waterfall-vs-agile-vs-lean-explained-in-1-picture/
 
 The reference provided is the most simplified and comprehensive representation I could find.
 
