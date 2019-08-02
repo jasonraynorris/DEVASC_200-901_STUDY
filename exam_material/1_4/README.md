@@ -38,7 +38,6 @@ Key issues:
 # What is agile development?
 
 Agile development is an iterative approach to a compressed waterfall development process.  Take a look at the new waterfall process we use below.
-<br>
 This time we gear the initial design towards a <b>minimal viable product</b>.
 
 <b>Compressed Waterfall Phases:</b>
@@ -46,7 +45,7 @@ This time we gear the initial design towards a <b>minimal viable product</b>.
 2. <b>Design - We design for minimal viable product and subsequent iterations we design additional requirements.</b>
 3. Implementation - Engineering and implementation.
 4. Testing - Make sure it all works.
-5. Release + Maintenance - Release the code.
+5. Build and Release + Maintenance - Release the code.
 
 <b>Agile Phases:</b>
 1. (Compressed Waterfall Phases) + Get Customer Feedback
