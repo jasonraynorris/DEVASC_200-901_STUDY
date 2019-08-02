@@ -27,6 +27,12 @@ Waterfall is the core workflow used in each of the three development processes.
 5. Release + Maintenance - Release the code.
 6. Release to Market - Customer, Stakeholder, and Consumer get the product.
 
+<img src="https://i.ibb.co/wwrLTmS/waterfall-dev-process.png">
+
+Key issues:
+1. There has been no feedback during this process from the customer.
+2. There has been no feedback during this process from the consumers.
+
 <hr>
 <h6>Section 1.4.2</h6>
 
@@ -34,7 +40,7 @@ Waterfall is the core workflow used in each of the three development processes.
 
 Agile development is an iterative approach to a compressed waterfall development process.  Take a look at the new waterfall process we use below.
 <br>
-This time we gear towards <b>minimal viable product</b>.
+This time we gear the initial design towards a <b>minimal viable product</b>.
 
 <b>Compressed Waterfall Phases:</b>
 1. Requirements Gathering - Understand the requirements of your project.
@@ -44,14 +50,19 @@ This time we gear towards <b>minimal viable product</b>.
 5. Release + Maintenance - Release the code.
 
 <b>Agile Phases:</b>
-1. (Compressed Waterfall Phases)
-2. (Compressed Waterfall Phases)
-3. (Compressed Waterfall Phases)
-4. (Compressed Waterfall Phases)
-5. (Compressed Waterfall Phases)
+1. (Compressed Waterfall Phases) + Get Customer Feedback
+2. (Compressed Waterfall Phases) + Get Customer Feedback
+3. (Compressed Waterfall Phases) + Get Customer Feedback
+4. (Compressed Waterfall Phases) + Get Customer Feedback
+5. (Compressed Waterfall Phases) + Get Customer Feedback
 6. Release to Market - Customer, Stakeholder, and Consumer get the product.
 
-This gives us an early look at our product to determine if we are developing in the right direction.
+This gives the customer an early look at the product to determine if we are developing in the right direction.
+
+Key disadvantages:
+1. There is potential for scope creeping.
+2. There has been no feedback during this process from the consumers.
+
 <hr>
 <h6>Section 1.4.3</h6>
 
@@ -61,14 +72,19 @@ Lean development is the same iterative approach as Agile with one major exceptio
 <br>
 
 <b>Lean Phases:</b>
-1. (Compressed Waterfall Phases) + Release to Market
-2. (Compressed Waterfall Phases) + Release to Market
-3. (Compressed Waterfall Phases) + Release to Market
-4. (Compressed Waterfall Phases) + Release to Market
-5. (Compressed Waterfall Phases)
-6. Release to Market - Customer, Stakeholder, and Consumer get the product.
+1. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
+2. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
+3. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
+4. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
+5. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
+6. Final Release to Market - Customer, Stakeholder, and Consumer get the product.
 
-The major advantage in lean development is being able to receive market feedback.  This gives us some insight into our product before over committing on our investment.
+Key advantages:
+1. The major advantage in lean development is being able to receive market feedback.  This gives us some insight into our product before over committing on our investment.
+
+Key disadvantages:
+1. There is potential for scope creeping.
+2. Project retention dependent on feedback cycles. More pressure on individual cycles.
 
 
 
