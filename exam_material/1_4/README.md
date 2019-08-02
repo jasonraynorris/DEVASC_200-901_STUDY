@@ -26,7 +26,7 @@ Waterfall is the core workflow used in each of the three development processes.
 4. Testing - Make sure it all works.
 5. Release to Market - Customer, Stakeholder, and Consumer get the product.
 
-<img src="https://i.ibb.co/wwrLTmS/waterfall-dev-process.png">
+<img src="https://i.ibb.co/v1wrk6J/waterfall-dev-process.jpg">
 
 Key issues:
 1. There has been no feedback during this process from the customer.
