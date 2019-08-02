@@ -14,9 +14,6 @@ Reference: http://irfanebrahim.com/2014/11/02/waterfall-vs-agile-vs-lean-explain
 
 # What is waterfall development?
 
-
-The reference provided is the most simplified and comprehensive representation I could find.
-
 Waterfall is the core workflow used in each of the three development processes.
 
 <b>Waterfall Phases:</b>
