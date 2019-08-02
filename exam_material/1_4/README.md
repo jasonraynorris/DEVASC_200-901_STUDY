@@ -28,7 +28,7 @@ Waterfall is the core workflow used in each of the three development processes.
 
 <img src="https://i.ibb.co/v1wrk6J/waterfall-dev-process.jpg">
 
-Key issues:
+<b>Key disadvantages:</b>
 1. There has been no feedback during this process from the customer.
 2. There has been no feedback during this process from the consumers.
 
@@ -56,9 +56,10 @@ This time we gear the initial design towards a <b>minimal viable product</b>.
 
 <img src="https://i.ibb.co/zGBBK9H/agile-dev-process.jpg">
 
-This gives the customer an early look at the product to determine if we are developing in the right direction.
+<b>Key advantages:</b>
+1. We can now solicit feedback from our customer.
 
-Key disadvantages:
+<b>Key disadvantages:</b>
 1. There is potential for scope creeping.
 2. There has been no feedback during this process from the consumers.
 
@@ -78,10 +79,12 @@ Lean development is the same iterative approach as Agile with one major exceptio
 5. (Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
 6. Final Release to Market - Customer, Stakeholder, and Consumer get the product.
 
-Key advantages:
+<img src="https://i.ibb.co/DVMWwJY/lean-dev-process.jpg">
+
+<b>Key advantages:</b>
 1. The major advantage in lean development is being able to receive market feedback.  This gives us some insight into our product before over committing on our investment.
 
-Key disadvantages:
+<b>Key disadvantages:</b>
 1. There is potential for scope creeping.
 2. Project retention dependent on feedback cycles. More pressure on individual cycles.
 
