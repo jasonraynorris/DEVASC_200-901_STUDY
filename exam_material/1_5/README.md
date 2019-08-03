@@ -74,7 +74,7 @@ This should look familiar.  It's a similar data structure to what's in example_d
 
 <hr>
 
-<h6>Section 1.5.2</h6>
+<h6>Section 1.5.3</h6>
 
 # What are the Module benefits?
 

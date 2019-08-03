@@ -47,9 +47,9 @@ We will apply bold to each section as it considered in a state of completion
 1.3 Describe the concepts of test-driven development
 
 1.4 Compare software development methods (agile, lean, and waterfall)
-</b>
 
 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
+</b>
 
 1.6 Identify the advantages of common design patterns (MVC and Observer)
 
