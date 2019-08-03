@@ -32,7 +32,7 @@ Waterfall is the core workflow used in each of the three development processes.
 1. Unable to make dynamic changes in requirements
 2. No feedback from the customers
 3. No feedback from the consumers
-4. Higher risk of customer and market dis-satisfaction
+4. Higher risk of customer and market dissatisfaction
 
 
 <hr>
