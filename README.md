@@ -37,14 +37,17 @@ We will apply bold to each section as it considered in a state of completion
 <b>1.0 Software Development and Design
 
 1.1 Compare data formats (XML, JSON, and YAML)
-https://www.youtube.com/watch?v=IhIAknaocsw
 
-1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures</b>
-https://www.youtube.com/watch?v=kSyZKcX6XRc
+&nbsp;&nbsp;&nbsp;&nbsp;https://www.youtube.com/watch?v=IhIAknaocsw
+
+1.2 Describe parsing of common data format (XML, JSON, and YAML) to Python data structures
+
+&nbsp;&nbsp;&nbsp;&nbsp;https://www.youtube.com/watch?v=kSyZKcX6XRc
 
 1.3 Describe the concepts of test-driven development
 
 1.4 Compare software development methods (agile, lean, and waterfall)
+</b>
 
 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 
