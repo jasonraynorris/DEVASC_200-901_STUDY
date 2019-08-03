@@ -32,8 +32,6 @@ Reference: https://learningnetwork.cisco.com/community/certifications/devnet-ass
 We will apply bold to each section as it considered in a state of completion
 <br><br>
 
-
-
 <b>1.0 Software Development and Design
 
 1.1 Compare data formats (XML, JSON, and YAML)
@@ -47,6 +45,8 @@ We will apply bold to each section as it considered in a state of completion
 1.3 Describe the concepts of test-driven development
 
 1.4 Compare software development methods (agile, lean, and waterfall)
+
+&nbsp;&nbsp;&nbsp;&nbsp;https://www.youtube.com/watch?v=vM0FDefgasI
 
 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 </b>
