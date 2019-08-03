@@ -81,8 +81,7 @@ Lean development is the same iterative approach as Agile with one major exceptio
 2. Sprint:(Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
 3. Sprint:(Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
 4. Sprint:(Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
-5. Sprint:(Compressed Waterfall Phases) + Get Customer Feedback + Get Market Feedback
-6. Final Release to Market - Customer, Stakeholder, and Consumer get the product
+5. Final Release to Market - Customer, Stakeholder, and Consumer get the product
 
 <img src="https://i.ibb.co/CmHBypB/lean-dev-process.jpg">
 
