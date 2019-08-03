@@ -77,5 +77,3 @@ json_dict["switches"] = switches
 
 """Print as json"""
 print(json.dumps(json_dict,indent=4))
-
-"""This should look familiar to our example_data_set.json"""
