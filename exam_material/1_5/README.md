@@ -36,8 +36,34 @@ Class Benefits:
 
 1. Classes and methods allow us to contain both function(method) and data within a referencable object.
 2. Classes allow us to define a template for an object instance. This is helpful when describing the same <b>type</b> of object with different attributes.
+3. Classes allow us to inherit other class templates.  This allows us to further modular'ize.
 
-Example Reference: demonstrating_benefits.py
+It's re-usable, modular, and over all less code.
+
+Example Reference: class_basics.py
+
+<img src="https://i.ibb.co/kKD0YYV/class-basics.jpg">
+
+
+Output:
+<pre>
+CHILD INIT
+PARENT INIT
+{'species': 'human', 'arms': 4, 'legs': 2, 'head': 1, 'torso': 1, 'get_into_trouble': True, 'likes_gi_joes': True, 'likes_barbies': False, 'hair_color': 'red', 'eye_color': 'blue', 'height_inch': 46}
+CHILD INIT
+PARENT INIT
+{'species': 'human', 'arms': 3, 'legs': 2, 'head': 1, 'torso': 1, 'get_into_trouble': False, 'likes_gi_joes': False, 'likes_barbies': True, 'hair_color': 'black', 'eye_color': 'blue', 'height_inch': 46}
+</pre>
+
+The above code illustrates the concepts of how classes can be used to write reusable and modular code.
+We could have written one class to represent each child.  Instead, we take out the common methods and data and move those to a base/parent class.  Now we don't write those common methods and data twice or more.  We can also <b>*organize</b> the base/parent class completely out of this file and import it.
+
+
+
+Let's look at some more specific code around network devices.
+
+
+Example Reference: demonstrating_class_benefits.py
 <br>
 <img src="https://i.ibb.co/JF1x368/class-method-benefit.jpg">
 
@@ -74,9 +100,15 @@ This should look familiar.  It's a similar data structure to what's in example_d
 
 <hr>
 
+A more detailed example of class inheritance.
+
+<img src="https://i.ibb.co/Tr2t7b0/class-inheritance-benefits.jpg">
+
+We can move some of the less specific methods and data into another base/parent class.  We can then inherit from that base/parent class.  This is used to not only organize your code, but also to further modularize it for re-usability.
+
 <h6>Section 1.5.3</h6>
 
-# What are the Module benefits?
+# What are the benefits of using Modules?
 
 Module Benefits:
 
