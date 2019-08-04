@@ -49,6 +49,8 @@ We will apply bold to each section as it considered in a state of completion
 &nbsp;&nbsp;&nbsp;&nbsp;https://www.youtube.com/watch?v=vM0FDefgasI
 
 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
+
+https://www.youtube.com/watch?v=-WBzAwyefUI
 </b>
 
 1.6 Identify the advantages of common design patterns (MVC and Observer)
