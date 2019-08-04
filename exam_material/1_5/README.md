@@ -42,7 +42,7 @@ It's re-usable, modular, and over all less code.
 
 Example Reference: class_basics.py
 
-<img src="https://i.ibb.co/kKD0YYV/class-basics.jpg">
+<img src="https://i.ibb.co/4fCR2L4/class-basics.jpg">
 
 
 Output:
@@ -56,9 +56,9 @@ PARENT INIT
 </pre>
 
 The above code illustrates the concepts of how classes can be used to write reusable and modular code.
-We could have written one class to represent each child.  Instead, we take out the common methods and data and move those to a base/parent class.  Now we don't write those common methods and data twice or more.  We can also <b>*organize</b> the base/parent class completely out of this file and import it.
+We could have written one class to represent each child.  Instead, we take out the common methods and data and move those to a base/parent class.  Now we don't write those common methods and data twice or more.  We can override methods if we need to.
 
-
+We can also <b>*organize</b> the base/parent class completely out of this file and import it.
 
 Let's look at some more specific code around network devices.
 

@@ -6,6 +6,10 @@ class Parent(object):
         self.legs = 2
         self.head = 1
         self.torso = 1
+        self.hair_color = "blonde"
+    def set_hair_color(self,hair_color):
+        print("Parent Function")
+        self.hair_color = hair_color
     def set_arms_count(self,arms_count):
         self.arms = int(arms_count)
     def set_legs_count(self,arms_count):
@@ -17,18 +21,18 @@ class MaleChild(Parent):
     '''call child init, by default will init parent without this method'''
     def __init__(self):
         print("CHILD INIT")
-        '''call parent init to inherit'''
+        '''call parent init if you want those init vars!'''
         Parent.__init__(self)
-
         '''DISCLAIMER: These are generalizations for concept and should not represent any sort of gender stereotyping'''
         self.get_into_trouble = True
         self.likes_gi_joes = True
         self.likes_barbies = False
-
         self.hair_color = "brown"
         self.eye_color = "blue"
         self.height_inch = 46
+        '''notice this method is being overriding the parent'''
     def set_hair_color(self,hair_color):
+        print("Child Function")
         self.hair_color = hair_color
     def set_eye_color(self, eye_color):
         self.eye_color = eye_color
@@ -39,7 +43,6 @@ class FemaleChild(Parent):
         print("CHILD INIT")
         '''call parent init to inherit'''
         Parent.__init__(self)
-
         '''DISCLAIMER: These are generalizations for concept and should not represent any sort of gender stereotyping'''
         self.get_into_trouble = False
         self.likes_gi_joes = False
@@ -48,7 +51,9 @@ class FemaleChild(Parent):
         self.hair_color = "brown"
         self.eye_color = "blue"
         self.height_inch = 46
+        '''notice this method is being overriding the parent'''
     def set_hair_color(self,hair_color):
+        print("Child Function")
         self.hair_color = hair_color
     def set_eye_color(self, eye_color):
         self.eye_color = eye_color
