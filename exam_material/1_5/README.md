@@ -42,7 +42,7 @@ It's re-usable, modular, and over all less code.
 
 Example Reference: class_basics.py
 
-<img src="https://i.ibb.co/kKD0YYV/class-basics.jpg">
+<img src="https://i.ibb.co/4fCR2L4/class-basics.jpg">
 
 
 Output:
