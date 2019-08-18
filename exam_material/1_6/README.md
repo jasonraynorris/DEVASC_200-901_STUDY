@@ -87,6 +87,8 @@ The code below represents a family of 5.  Lets make the two parents observables 
 <br>
 There is ANSI color code in this code.  The output is much easier to read and follow in a terminal.
 
+Let's cover the concepts below.
+
 Reference: observer.py
 <pre>
 
