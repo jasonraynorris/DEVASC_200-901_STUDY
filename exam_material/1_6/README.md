@@ -89,6 +89,7 @@ There is ANSI color code in this code.  The output is much easier to read and fo
 
 Reference: observer.py
 <pre>
+
 class Observable:
     """Any observers that wants to listen to what I have to say, come subscribe now!"""
     def __init__(self,name=None):
@@ -164,7 +165,7 @@ class Observer(object):
 
     """default callback method is update"""
     def update(self,message,observable):
-        print("--------%s observation(%s:%s)" % (observable.__name__,self.__name__,message))
+        print("--------%s observation(%s:%s)" % (self.__name__,observable.__name__,message))
         self.do_something(observable=observable,message=message)
         pass
 
@@ -276,33 +277,33 @@ big-sam subscribed to dad
 baby-sally subscribed to mom
 
 EVENT/STATUS: mom: wake_up
---------mom observation(baby-sally:waking up)
+--------baby-sally observation(mom:waking up)
 -------- baby-sally has no action for:(waking up)
 
 EVENT/STATUS: dad: wake_up
---------dad observation(little-john:waking up)
+--------little-john observation(dad:waking up)
 -------- little-john has no action for:(waking up)
---------dad observation(big-sam:waking up)
+--------big-sam observation(dad:waking up)
 -------- big-sam has no action for:(waking up)
 
 EVENT/STATUS: dad: eat_breakfast
---------dad observation(little-john:eating breakfast)
+--------little-john observation(dad:eating breakfast)
 -------- little-john has no action for:(eating breakfast)
---------dad observation(big-sam:eating breakfast)
+--------big-sam observation(dad:eating breakfast)
 -------- big-sam has no action for:(eating breakfast)
 
 EVENT/STATUS: mom: eat_breakfast
---------mom observation(baby-sally:eating breakfast)
+--------baby-sally observation(mom:eating breakfast)
 -------- baby-sally has no action for:(eating breakfast)
 
 EVENT/STATUS: dad: brush_teeth
---------dad observation(little-john:brushing teeth)
+--------little-john observation(dad:brushing teeth)
 -------- little-john has no action for:(brushing teeth)
---------dad observation(big-sam:brushing teeth)
+--------big-sam observation(dad:brushing teeth)
 -------- big-sam has no action for:(brushing teeth)
 
 EVENT/STATUS: dad: going to work
---------dad observation(little-john:going to work)
+--------little-john observation(dad:going to work)
 ACTION: little-john: unsubscribing from dad
 
 little-john unsubscribed to dad
@@ -312,19 +313,19 @@ little-john subscribed to mom
 big-sam subscribed to mom
 
 EVENT/STATUS: mom: brush_teeth
---------mom observation(baby-sally:brushing teeth)
+--------baby-sally observation(mom:brushing teeth)
 -------- baby-sally has no action for:(brushing teeth)
---------mom observation(little-john:brushing teeth)
+--------little-john observation(mom:brushing teeth)
 -------- little-john has no action for:(brushing teeth)
---------mom observation(big-sam:brushing teeth)
+--------big-sam observation(mom:brushing teeth)
 -------- big-sam has no action for:(brushing teeth)
 
 EVENT/STATUS: mom: going to work
---------mom observation(baby-sally:going to work)
+--------baby-sally observation(mom:going to work)
 ACTION: baby-sally: unsubscribing from mom
 
 baby-sally unsubscribed to mom
---------mom observation(big-sam:going to work)
+--------big-sam observation(mom:going to work)
 ACTION: big-sam: unsubscribing from mom
 
 big-sam unsubscribed to mom
@@ -336,13 +337,13 @@ big-sam subscribed to elementary_teacher
 baby-sally subscribed to daycare_teacher
 
 EVENT/STATUS: elementary_teacher: teach_subject-Math
---------elementary_teacher observation(little-john:teaching Math)
+--------little-john observation(elementary_teacher:teaching Math)
 -------- little-john has no action for:(teaching Math)
---------elementary_teacher observation(big-sam:teaching Math)
+--------big-sam observation(elementary_teacher:teaching Math)
 -------- big-sam has no action for:(teaching Math)
 
 EVENT/STATUS: daycare_teacher: teach_subject-Reading
---------daycare_teacher observation(baby-sally:teaching Reading)
+--------baby-sally observation(daycare_teacher:teaching Reading)
 -------- baby-sally has no action for:(teaching Reading)
 
 little-john unsubscribed to elementary_teacher
@@ -358,11 +359,11 @@ big-sam subscribed to dad
 baby-sally subscribed to dad
 
 EVENT/STATUS: dad: picking up kids
---------dad observation(big-sam:picking up kids)
+--------big-sam observation(dad:picking up kids)
 -------- big-sam has no action for:(picking up kids)
---------dad observation(little-john:picking up kids)
+--------little-john observation(dad:picking up kids)
 -------- little-john has no action for:(picking up kids)
---------dad observation(baby-sally:picking up kids)
+--------baby-sally observation(dad:picking up kids)
 -------- baby-sally has no action for:(picking up kids)
 
 little-john subscribed to mom
@@ -372,37 +373,37 @@ big-sam subscribed to mom
 baby-sally subscribed to mom
 
 EVENT/STATUS: dad: eating dinner
---------dad observation(big-sam:eating dinner)
+--------big-sam observation(dad:eating dinner)
 -------- big-sam has no action for:(eating dinner)
---------dad observation(little-john:eating dinner)
+--------little-john observation(dad:eating dinner)
 -------- little-john has no action for:(eating dinner)
---------dad observation(baby-sally:eating dinner)
+--------baby-sally observation(dad:eating dinner)
 -------- baby-sally has no action for:(eating dinner)
 
 EVENT/STATUS: mom: eating dinner
---------mom observation(little-john:eating dinner)
+--------little-john observation(mom:eating dinner)
 -------- little-john has no action for:(eating dinner)
---------mom observation(big-sam:eating dinner)
+--------big-sam observation(mom:eating dinner)
 -------- big-sam has no action for:(eating dinner)
---------mom observation(baby-sally:eating dinner)
+--------baby-sally observation(mom:eating dinner)
 -------- baby-sally has no action for:(eating dinner)
 
 EVENT/STATUS: dad: going to sleep
---------dad observation(big-sam:going to sleep)
+--------big-sam observation(dad:going to sleep)
 ACTION: big-sam: unsubscribing from dad
 
 big-sam unsubscribed to dad
---------dad observation(baby-sally:going to sleep)
+--------baby-sally observation(dad:going to sleep)
 ACTION: baby-sally: unsubscribing from dad
 
 baby-sally unsubscribed to dad
 
 EVENT/STATUS: mom: going to sleep
---------mom observation(little-john:going to sleep)
+--------little-john observation(mom:going to sleep)
 ACTION: little-john: unsubscribing from mom
 
 little-john unsubscribed to mom
---------mom observation(baby-sally:going to sleep)
+--------baby-sally observation(mom:going to sleep)
 ACTION: baby-sally: unsubscribing from mom
 
 baby-sally unsubscribed to mom

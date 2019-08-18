@@ -74,7 +74,7 @@ class Observer(object):
 
     """default callback method is update"""
     def update(self,message,observable):
-        print("--------%s observation(%s:%s)" % (observable.__name__,self.__name__,message))
+        print("--------%s observation(%s:%s)" % (self.__name__,observable.__name__,message))
         self.do_something(observable=observable,message=message)
         pass
 
