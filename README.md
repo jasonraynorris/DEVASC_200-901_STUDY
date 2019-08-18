@@ -51,10 +51,10 @@ We will apply bold to each section as it considered in a state of completion
 1.5 Explain the benefits of organizing code into methods / functions, classes, and modules
 
 https://www.youtube.com/watch?v=-WBzAwyefUI
+
+1.6 Identify the advantages of common design patterns (MVC and Observer)<br>
+<br>NOTE! 1.6 IS A WORK IN PROGRESS.  I AM WAITING UNTIL I HAVE A STRONG REPRESENTATION OF THIS TOPIC.  FEEL FREE TO TAKE A LOOK THUS FAR.<br><br>
 </b>
-
-1.6 Identify the advantages of common design patterns (MVC and Observer)
-
 1.7 Explain the advantages of version control
 
 1.8 Utilize common version control operations with Git
