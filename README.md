@@ -3,6 +3,7 @@
 Follow me on YouTube:https://www.youtube.com/channel/UC-juxWFp_IXOcc4qp2dn-vw
 <br><br>
 DEVASC_200_901_STUDY
+UPDATE 8/18/2019: WORKING ON 1.6. STANDBY!
 <br><br>
 Getting Started: https://youtu.be/PVovnjHuZtc
 <h4>Developed using Python3.7.4</h4>
