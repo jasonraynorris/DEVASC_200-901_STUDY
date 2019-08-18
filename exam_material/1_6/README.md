@@ -419,6 +419,17 @@ baby-sally unsubscribed to mom
 Isn't this a cool way to communicate between objects?  Now lets look at how this might apply to networks.
 
 Reference: https://docs.python.org/3/howto/sockets.html
+ 
+We will cover some ready-to-use WEB API frameworks in later topics.
+
+I started working on a low level controller/client(observable/observer) framework for concept example.
+
+Check out these files(*INCOMPLETE):
+
+1. controller_observable.py
+1. controller_observer.py
+
+
 
 
 
